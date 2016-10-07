@@ -2,6 +2,10 @@ package PS3;
 	
 	public class InsufficientFundsException extends Exception {
 	   
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private double amount;
 	   /**
 	    * Create an instance of the InsufficientFundsException class, to be thrown to the caller
